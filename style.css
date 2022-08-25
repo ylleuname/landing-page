@@ -1,0 +1,103 @@
+html, body {
+  height: 100%;
+  width: 100%;
+}
+body{
+  background-color: rgb(233, 183, 145);
+  color: rgb(107, 71, 43);
+  max-width: 1300px;
+  
+}
+
+h1{
+  padding-left: 5px;
+  font-family: 'Roboto Serif', serif;
+  font-weight: 100px;
+  font-size:40px;
+}
+
+#title{
+  flex-direction: column;
+  line-height: 10px;
+}
+h2{
+  font-family: 'Roboto', serif;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+header{
+  display:flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+form{
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 40px;
+  
+}
+
+form [type = "submit"]{
+  width: 80px;
+  height:35px;
+  font-family: 'Roboto', serif;
+  color: rgb(107, 71, 43);
+  font-weight: bold;
+}
+
+form [type = "submit"]:hover{
+  cursor: pointer;
+}
+
+input{
+  margin-top: 20px;
+  height: 20px;
+  padding-top:10px;
+  padding-bottom: 10px;
+  border-radius: 5px;
+  border: none;
+  font-size: 15px;
+}
+
+aside{
+  margin-top: 40px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-left: 50px;
+  margin-right: 50px;
+  background-color: rgba(107, 71, 43, 0.3);
+  border-radius: 5px;
+  border: none;
+}
+
+ul li{
+  color: rgba(0,0,0,0.7);
+  list-style: none;
+  display: inline-block;
+  margin:30px;
+}
+li:hover{
+  color: rgb(242, 239, 238);
+}
+
+img{
+  width: 150px;
+}
+
+#dog{
+  max-width: 160px;
+  position: relative;
+  top: -660px;
+  right: -130px;
+}
+#fat_cat{
+  max-width: 160px;
+  position: relative;
+  top: -570px;
+  right: -830px;
+}

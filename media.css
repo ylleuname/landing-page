@@ -1,0 +1,13 @@
+@media screen and (max-width: 760px){
+
+  header{
+    flex-direction: column;
+  }
+
+  #dog{
+    max-width: 160px;
+    position: relative;
+    top: -880px;
+    right: -215px;
+  }
+}
